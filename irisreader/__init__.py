@@ -1,7 +1,9 @@
 from irisreader.file_hub import file_hub, ASTROPY_FILE_METHOD
 from irisreader.iris_data_cube import iris_data_cube
+from irisreader.sdo_data_cube import sdo_data_cube
 from irisreader.raster_cube import raster_cube
 from irisreader.sji_cube import sji_cube
+from irisreader.aia_cube import aia_cube
 from irisreader.get_lines import get_lines
 from irisreader.has_line import has_line
 from irisreader.observation import observation
